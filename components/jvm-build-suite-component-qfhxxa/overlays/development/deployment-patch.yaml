@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-qfhxxa
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/mbasti-test-org/jvm-build-cxhx-tenant/jvm-build-suite-application-mfhi/jvm-build-suite-component-qfhxxa@sha256:488d895d44e0b6e59ecb90cd200a2a8e1dff4161234360661014d0e85bc8a9ec
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
